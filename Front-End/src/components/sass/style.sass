@@ -1,0 +1,1280 @@
+$color-orange: #c06014
+$color-whait: #f3f4ed
+$color-black: #424642
+// FreamWorks
+body
+    font-family: "alert"
+    max-width: 100%
+
+// @media (min-width: 1200px)
+//     .container
+//         max-width: 1200px
+
+// @media (min-width: 992px)
+//     .container
+//         max-width: 960px
+.btn:clicked
+    outline-color: none
+
+.flex-direction-column
+    flex-direction: column !important
+.top-one
+    font-size: 15px
+    .nav-link
+        color: $color-black
+        padding: 0.1rem
+        font-size: 13px
+        font-weight: 300
+        &:not(:first-of-type),
+        &:nth-of-type(2),
+        &:nth-of-type(3),
+        &:nth-of-type(4),
+        &:not(:last-of-type)
+            border-right: 1px solid #000
+.slide-balls
+    display: flex
+    justify-content: center
+    padding: 30px 1rem 1rem
+    .slide-ball,
+    .e-slide-ball,
+    .ex-slide-ball,
+    .t-slide-ball
+        width: 7px
+        height: 7px
+        cursor: pointer
+        background-color: #6c757d
+        border-radius: 50%
+        margin-right: 5px
+        transition: all 0.3s ease-in-out
+        &.active
+            background-color: $color-orange
+            width: 30px
+            border-radius: 20px
+
+.nav-one
+    display: flex
+    font-size: 12px
+    align-items: center
+    justify-content: center
+
+    .nav-one-welcome
+        padding: 0
+    .nav-one-links
+        ul
+            margin: 0
+            justify-content: end
+            padding: 5px 0
+            li
+                display: flex
+                padding: 0px 7px
+                font-size: 9px
+                border-right: 1px solid #ddd
+                cursor: pointer
+                border-radius: 5px
+                transition: all .01s ease-in-out
+                &:hover
+                    box-shadow: inset 0 0 20px 0 #ffdabd69
+                svg
+                    margin: 0px 3px
+                    font-size: 15px
+
+@media (min-width: 100px) and ( max-width: 767px )
+    .nav-two-cont
+
+        .nav-two-form
+            font-size: 0.7rem
+            // display: none
+            // width: 75%
+            form
+                select
+                    display: none
+                .btn
+                    padding: 0.1rem 0.3rem
+                    border-radius: 0 50px 50px 0
+                    font-size: 0.7rem
+                    background-color: $color-orange
+                    border-color: $color-orange
+                    svg
+                        font-size: 21px
+
+.nav-two
+    background-color: $color-black
+    color: #fff
+    transition: all .5s ease-in-out
+    &.fixed
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        // height: 100px
+        z-index: 9999
+    .nav-two-cont
+        padding: 1rem 0
+        max-height: 5rem
+        .nav-two-logo
+            text-align: center
+            font-size: 20px
+            a
+                color: #fff
+                text-decoration: none
+        .nav-two-form
+            font-size: 0.7rem
+            form
+                input, select
+                    padding: 0.3rem 0.2rem
+                    border-radius: 0
+                    font-size: 0.7rem
+                input
+                    border-radius: 50px 0 0 50px
+                    // &:active
+                    //     // border: none
+                    //     // outline: none
+
+                .btn
+                    padding: 0.1rem 0.3rem
+                    border-radius: 0 50px 50px 0
+                    font-size: 0.7rem
+                    background-color: $color-orange
+                    border-color: $color-orange
+                    svg
+                        font-size: 21px
+        .nav-two-icons
+            display: flex
+            justify-content: flex-end
+            div
+                cursor: pointer
+                text-align: center
+                width: 35px
+                height: 35px
+                display: flex
+                padding: 1rem
+                margin: 0 0.8rem
+                border-radius: 50px
+                align-items: center
+                justify-content: center
+                position: relative
+                a
+                    color: #fff
+                    text-decoration: none
+                    display: block
+                    svg
+                        font-size: 25px
+                &:hover
+                    box-shadow: inset -3px 3px 11px 0px #c06014
+                    border: 1px solid #f3f4ed8c
+            .welcoming-cont
+                width: 130px
+                background-color: var(--bs-info)
+                .welcoming
+                    font-size: 14px
+                    span
+                        font-weight: 500
+                &:hover
+                    box-shadow: inset -3px 3px 11px 0px #c06014
+                    border: none
+            .cart-icon
+                a
+                    span
+                        position: absolute
+                        bottom: 16px
+                        right: 0px
+                        background-color: #c06014a3
+                        width: 21px
+                        border-radius: 50%
+                        font-size: 13px
+.entertaiment-head
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 1rem 0 0
+    .e-head
+        position: relative
+        span
+            width: 171px
+            height: 3px
+            background-color: #c06014
+            position: absolute
+            bottom: -7px
+            left: 0
+        .previos-btn, .next-btn
+            padding: 0 3px
+            cursor: pointer
+            font-weight: bold
+            font-size: 20px
+            color: #999
+            &:hover
+                color: $color-orange
+hr.hr-edit
+    margin: 0.3rem 0 1rem
+.navbar
+    overflow: hidden
+    z-index: 999
+.slider-img.w-100
+    height: 400px !important
+
+.row
+    --bs-gutter-x: 0.5rem !important
+
+    // Product Page Start
+.product_page
+    background-color: $color-whait
+    padding-top: 70px
+
+    .product-img
+        text-align: center
+        img
+            width: 80%
+            padding: 1rem
+            border: 1px solid $color-black
+        .buy-buttons
+            .btn
+                margin: 1rem 0
+                width: 100%
+    .product-info
+        padding-top: 20px
+        padding-bottom: 40px
+        .product-name
+            color: #333
+            letter-spacing: 1.15px
+        .product-saler
+
+            a
+                color: #888
+                font-size: 12px
+                text-decoration: none
+        .product-rate
+            margin-left: 5px
+            font-size: 14px
+            svg
+                font-size: 16px
+        .product-prices
+            padding-top: 1rem
+            font-size: 15px
+            span.all-amount
+                display: block
+
+                span
+                    letter-spacing: 1.1px
+                    text-decoration: line-through
+            .discount, .new-price
+                letter-spacing: 1.2px
+                span
+                    color: $color-orange
+                    font-weight: bold
+                    font-size: 18px
+
+            .price-save
+                font-size: 12px
+                letter-spacing: 1.3px
+
+        .product-services
+            padding-top: 20px
+            text-align: center
+            .ship
+                padding: 5px
+                letter-spacing: 0.9px
+                text-align: center
+                .ship-pic
+                    position: relative
+                    left: 30%
+                    color: $color-orange
+                    border-radius: 50%
+                    border: .6px solid #a1a1a1
+                    width: 50px
+                    height: 50px
+                    line-height: 44px
+                    margin-bottom: 5px
+                    &:hover
+                        color: $color-whait
+                        background-color: $color-black
+                p
+                    font-weight: 150
+                    color: $color-orange
+        .product-feats
+            .store-services
+                padding-top: 1rem
+                p
+                    letter-spacing: 1.2px
+                    margin: 0
+                    font-size: 14px
+                    a
+                        color: $color-orange
+                        text-decoration: none
+            .product-spacifc
+                .product-order-spac
+                    padding-top: 1rem
+                    .product-colors
+                        display: flex
+                        span
+                            margin: 0px 5px
+                            display: block
+                            width: 40px
+                            height: 40px
+                            border-radius: 50%
+                            cursor: pointer
+                            &.red
+                                background-color: #a02000
+                            &.blue
+                                background-color: #000296
+                            &.black
+                                background-color: $color-black
+                .product-quan
+                    display: flex
+
+                .product-soft
+                    display: flex
+                    padding-top: 1rem
+                    .soft-head
+                        letter-spacing: 1.1px
+                    .soft
+                        width: 50px
+                        height: 30px
+                        line-height: 25px
+                        border: 1px solid #999999
+                        padding: 3px
+                        text-align: center
+                        margin: 0px 1rem
+                        cursor: pointer
+                        &:hover
+                            background-color: $color-orange
+                            color: $color-whait
+                            border: 1px solid $color-whait
+                    .more-opation
+                        cursor: pointer
+
+    // Home Page Start
+        // Hot Deal
+.help
+    background: $color-whait
+    padding-top: 20px
+    padding-bottom: 20px
+
+    a
+        text-decoration: none
+        color: #000
+        &:hover
+            color: #000
+        .hot-deal
+            margin: 1rem
+            background-color: #ffffff
+            overflow: hidden
+            height: 180px
+            padding: 1rem
+            text-transform: uppercase
+            position: relative
+        .deal-img
+            width: 100%
+        span.go-deal
+            position: absolute
+            right: 10px
+            bottom: 10px
+            background-color: $color-orange
+            font-size: 20px
+            padding: 0.4rem
+            color: #fff
+        .deal-caption
+            padding-top: 15px
+            font-size: 20px
+            font-weight: 150
+            span
+                font-weight: bold
+                color: $color-orange
+
+// Features
+
+.features
+    background-color: #fff
+    padding-top: 20px
+    padding-bottom: 20px
+    .feat-cont
+        width: 100%
+        border: 0.6px solid $color-orange
+        border-radius: 1rem
+        display: flex
+        padding: 5px
+        li
+            padding: 12px 0
+            text-align: center
+            width: 20%
+            color: #555
+            div
+
+                font-weight: bold
+            span
+                font-size: 14px
+                font-weight: 150
+            &:not(:last-of-type)
+                border-right: 0.6px solid $color-orange
+
+    // Product Card
+.fav_cont
+    padding: 1rem
+    border-right: .6px solid #ddd
+    // border-inline-end: .6px solid #ddd
+    position: relative
+    &:hover
+        box-shadow: -1px -1px 8px 0px rgb(108 117 125 / 38%)
+
+        .hide
+            display: block
+
+    .fav-catg
+        a
+            color: #000
+            text-decoration: none
+            &:hover
+                color: #000
+    a
+        color: #000
+        text-decoration: none
+        &:hover
+            color: #000
+        .fav-img
+            display: flex
+            justify-content: center
+            img
+                width: 70%
+    .product-angles
+        display: flex
+        align-items: center
+        .product-angle-img
+            cursor: pointer
+            padding: 5px
+            margin: 30px 5px 20px 0
+            border: .5px solid #999
+            width: 20%
+            img
+                width: 110%
+    .buy
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .car-icon
+            background-color: $color-orange
+            border-radius: 50%
+            width: 1.7rem
+            height: 1.7rem
+            line-height: 1.7rem
+            border: 0
+            color: $color-whait
+            transition: all .6s ease-in-out
+            svg
+                font-size: 0.7rem
+            &:hover
+                border-radius: 0%
+
+        .price
+            font-size: 24px
+            font-weight: 200
+        // .car-icon
+    .hide
+        display: none
+        background-color: #ffffff
+        width: 100%
+        position: absolute
+        left: 0
+        bottom: -35px
+        z-index: 99
+        padding: 20px
+        transition: all 6s ease-in-out
+        box-shadow: 0px 6px 6px 0px rgb(108 117 125 / 38%)
+        hr
+            margin: 0px
+            margin-bottom: 1rem
+        .wish-buttons
+            overflow: hidden
+            margin: 0
+            .wish
+                width: 50%
+                float: left
+            .compare
+                float: right
+                width: 50%
+            .wish, .compare
+                text-align: center
+                transition: all .2s ease-in-out
+                color: #ddd
+                &:hover
+                    color: #000
+
+//  ****************
+//  ****************
+//  ****************
+//  ****************
+
+    // Sample Setion Start
+.sample
+    .select-sorting-sample
+        border-bottom: 1px solid #999
+        justify-content: center
+        .sort
+            padding: 1rem 20px
+            cursor: pointer
+            font-size: 18px
+            position: relative
+            span
+                transition: all .4s ease-in-out
+                position: absolute
+                bottom: -1px
+                width: 70%
+                height: 2px
+            // span:last-of-type
+            //     position: absolute
+            //     bottom: -5px
+            //     left: 40%
+            //     width: 1rem
+            //     height: 1rem
+            //     border-radius: 50%
+            &.active
+                div
+                    transition: all .4s ease-in-out
+
+                    font-weight: bold
+                span
+                    background-color: $color-orange
+
+    .sorted-products
+        padding-top: 30px
+        position: relative
+        .slide.active
+            position: relative
+            display: block
+        .slide.hide
+            opacity: 0
+            display: none
+            position: absolute
+            top: 30px
+
+        .slide-balls
+            display: flex
+            justify-content: center
+            padding: 30px 1rem 1rem
+            .slide-ball
+                width: 7px
+                height: 7px
+                cursor: pointer
+                background-color: #6c757d
+                border-radius: 50%
+                margin-right: 5px
+                transition: all 0.3s ease-in-out
+                &.active
+                    background-color: $color-orange
+                    width: 30px
+                    border-radius: 20px
+
+    // Catigories
+
+.entertaiment
+    padding-top: 40px
+    padding-bottom: 40px
+    // background-color: $color-whait
+    background-color: $color-whait
+    .entertaiment-products-section
+
+        .entertaiment-products
+            position: relative
+            .slide.active
+                position: relative
+                display: block
+            .slide.hide
+                opacity: 0
+                display: none
+                position: absolute
+                top: 30px
+            .slide-balls
+                display: flex
+                justify-content: center
+                padding: 30px 1rem 1rem
+                .e-slide-ball
+                    width: 7px
+                    height: 7px
+                    cursor: pointer
+                    background-color: #6c757d
+                    border-radius: 50%
+                    margin-right: 5px
+                    transition: all 0.3s ease-in-out
+                    &.active
+                        background-color: $color-orange
+                        width: 30px
+                        border-radius: 20px
+
+// Small Product Card
+
+.fav_cont.fav-small
+    background-color: #fff
+    padding: 5px 1rem 1rem
+    margin-bottom: 15px
+    .fav-small-catg
+        font-size: .8rem
+        padding-bottom: 3px
+        a
+            color: #929292
+            font-weight: 400
+    .name
+        font-size: 0.8rem
+        color: #084298
+    .buy
+        position: relative
+        .price
+            // posi
+            div
+                font-size: 0.9rem
+                color: #bb1222
+                font-weight: 450
+            span
+                display: block
+                position: absolute
+                bottom: -12px
+                font-size: 0.7rem
+                text-decoration: line-through
+    .hide
+        padding: 1rem
+        hr
+            height: .55px
+            margin: 0px
+            margin-bottom: .5rem
+        .wish-buttons
+            .wish, .compare
+                font-size: .7rem
+                display: flex
+                align-items: center
+                svg
+                    margin-right: 1px
+                    font-size: 0.9rem
+
+    // Exact Catgory
+
+.exact-catg
+    padding: 40px 0 20px
+    .exact-products
+        position: relative
+        .slide.active
+            position: relative
+            display: block
+        .slide.hide
+            opacity: 0
+            display: none
+            position: absolute
+            top: 30px
+
+.tranding
+    background-color: $color-whait
+    padding: 30px 0
+    .tranding-products
+        position: relative
+        .slide.active
+            position: relative
+            display: block
+        .slide.hide
+            opacity: 0
+            display: none
+            position: absolute
+            top: 30px
+
+.best-seller
+    background-color: #fff
+    padding: 30px 0
+    .fav_cont
+        margin-bottom: .5rem
+    .fav-big
+        height: 98%
+        a
+            .fav-img
+                img
+                    width: 86%
+.catigorys
+    background-color: $color-whait
+    padding: 40px 0
+    .cat-cont
+        display: flex
+        padding-top: 1rem
+        padding-bottom: 20px
+        margin-bottom: 5px
+        &.line
+            padding-right: 1rem
+            border-right: .5px solid #42464277
+        .cat-img
+            flex: 1
+            img
+                max-width: 80%
+        a
+            color: #000
+            text-decoration: none
+        .cat-links
+            // text-align: center
+            flex: 1
+            h5
+                font-size: 12px
+                a
+                    color: $color-black
+            div
+                align-items: flex-start
+                position: relative
+                left: 5px
+                a
+                    color: #666
+                    display: block
+                    font-size: 11px
+                    font-weight: 200
+                    &:hover
+                        text-decoration: underline
+            span
+                text-align: right
+                display: block
+                a
+                    font-size: 0.7rem
+                    color: #888
+                    font-weight: bold
+                    &:hover
+                        text-decoration: underline
+
+.companies
+    padding: 20px 0
+    max-height: 122px
+    overflow: hidden
+    .companies-logos
+        display: flex
+        justify-content: center
+        .company
+            img
+                transition: all .1s ease-in-out
+                filter: grayscale(100%)
+                width: 95%
+                &:hover
+                    width: 100%
+                    filter: grayscale(0%)
+
+.news
+    background-color: $color-orange
+    padding: 5px 0
+    color: $color-whait
+    .headLine
+        // justify-content: space-between
+        align-items: center
+        h4
+            svg
+                font-size: 35px
+                margin-right: 5px
+    .get-cobon
+        font-size: 12px
+        margin: 0
+        span
+            color: $color-black
+            font-weight: bold
+    .email-sub
+        form
+            padding: 1px
+            .form-control
+                padding: 3px
+                margin: 0
+                font-size: 0.7rem
+                border-radius: 0.25rem 0 0 0.25rem
+            .button
+                background-color: $color-black
+                padding: 5px 5.5px
+                border-color: $color-black
+                font-size: 8px
+                border-radius: 0 0.25rem 0.25rem 0
+
+.footer
+    .footer-cont
+        padding-top: 40px
+        padding-bottom: 40px
+        .site-dateils
+            .site-logo
+                h5
+                    color: $color-orange
+                    // padding-bottom: 1rem
+                    font-size: 30px
+            .call-datial
+
+                .call-icon
+                    svg
+                        font-size: 41px
+                        margin-right: 5px
+                        margin-top: 1rem
+                        color: $color-orange
+                .call-number
+                    margin: 11px 0
+                    & > span:first-of-type
+                        font-size: 0.7rem
+                        display: block
+                        color: #999999ce
+                        margin: 5px 0px -2px 14px
+                    div
+                        margin: -4px
+                        font-size: 20px
+                        span
+                            letter-spacing: 1.2px
+            .site-location
+                p
+                    margin: 5px 0
+                    font-size: 13px
+                    &:last-of-type
+                        font-size: 0.7rem
+            .network-conect
+                padding-top: 20px
+                div
+                    margin: 0px 5px
+                    svg
+                        cursor: pointer
+                        &.facebook:hover
+                            color: #0d6efd
+                        &.whatsapp:hover
+                            color: #20c997
+                        &.instagram:hover
+                            color: #fd7e14
+                        &.linkedin:hover
+                            color: #0d6efd
+                        &.youtube:hover
+                            color: #dc3545
+        .find-fast
+
+            padding-top: 20px
+
+            h6
+                color: $color-black
+            .d-flex
+                div
+                    &:first-of-type
+                        width: 60%
+                    a
+                        font-size: 11px
+                        display: block
+                        color: #999
+                        font-weight: 200
+                        text-decoration: none
+                        &:hover
+                            text-decoration: underline
+.forms
+    background-color: $color-whait
+    width: 100%
+    height: 100%
+    position: absolute
+    .login_page, .Register
+        position: absolute
+        width: 60%
+        height: 85%
+        background-color: $color-black
+        color: $color-whait
+        left: 20%
+        z-index: 2
+        bottom: 7%
+        border-radius: 5px
+        display: flex
+        padding: 0
+        border: 0
+        h3
+            margin-bottom: 2rem
+        &.hide
+            z-index: 1
+        .form-cont
+            flex: 3
+            padding: 20px
+            form
+                display: flex
+                flex-direction: column
+                align-items: center
+                div
+                    position: relative
+                    width: 70%
+                    margin-bottom: 1rem
+                    input
+                        width: 100%
+                    span
+                        position: absolute
+                        right: 5px
+                        top: 50%
+                        cursor: pointer
+                        color: #494949b0
+                    .clicked
+                        color: #0d6dfd
+        .go-register
+            flex: 1
+            display: flex
+            // padding: 5px
+            text-align: center
+            flex-direction: column
+            justify-content: space-around
+                // background-color: $color-whait
+            .go-top
+                background-color: $color-whait
+                border: 3px solid $color-orange
+                color: $color-black
+                height: 100%
+                width: 100%
+            .go-bottom
+                align-content: center
+                height: 100%
+                background-color: $color-orange
+                padding: 1rem
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+        // width: 60%
+// button
+//     background-color: transparent
+.fav-line
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    padding: 5px
+    // margin-bottom: 1rem
+    // background: $color-whait
+    border-bottom: 1px solid #4246428c
+    .fav-dis
+        display: flex
+        .fav-img
+            width: 10%
+            img
+                max-width: 100%
+        .fav-detailes
+            display: flex
+            flex-direction: column
+            justify-content: center
+            font-size: 12px
+    .fav-quan
+        display: flex
+        margin: 0 5px
+        button
+            background: transparent
+            border: none
+
+        input
+            width: 30px
+            border: none
+    .fav-buttons
+        display: flex
+        flex-direction: row
+        align-content: center
+        button
+            background: transparent
+            border: none
+            border-radius: 50%
+            width: 32px
+            height: 32px
+            line-height: 32px
+            &.delete:hover
+                background-color: #dc3545
+                svg
+                    color: #fff
+            &.wishlist:hover
+                background-color: #0a58ca
+                svg
+                    color: #fff
+            &.compare:hover
+                background-color: #ffc107
+                svg
+                    color: #fff
+
+            svg
+                font-size: 20px
+
+.cart
+    background-color: $color-whait
+    .cart-cont
+        padding-top: 40px
+        .cart-sec-one
+            padding-top: 1rem
+            padding-right: 5px
+            .cart-orders
+                box-shadow: -3px 2px 20px 0px #6c757d57
+                background-color: #fff
+                border-radius: 1rem 1rem 0 0
+                padding: 10px
+                p
+                    text-align: center
+                    color: #888
+                    font-weight: lighter
+            .cart-ship-spac
+                padding: 20px 1rem
+                // box-shadow: -3px 2px 20px 0px #6c757d57
+                .cart-ship-delivery
+                    padding-top: 20px
+                    padding-bottom: 20px
+                    .delivary-method
+                        background-color: #fff
+                        display: flex
+                        flex-direction: row
+                        justify-content: space-between
+                        align-items: center
+                        margin-bottom: 0.7rem
+                        font-size: 11px
+                        padding: 7px
+                        margin-left: 5px
+                        width: 309px
+                        border-radius: 5px
+                        .delivery-company
+                            width: 40%
+                            img
+                                max-width: 60%
+                    .delivary-method.check
+                        border: 2px solid #0dcaf0
+                        filter: contrast(0.5)
+                .cart-ship-payment
+                    background: #fff
+                    padding: 20px 1rem
+                    padding-top: 20px
+                    padding-bottom: 20px
+                    box-shadow: -3px 2px 20px 0px #6c757d57
+                    .payment-method
+                        .payment-company
+                            background-color: #fff
+                            justify-content: space-between
+                            margin-bottom: 0.7rem
+                            font-size: 11px
+                            padding: 7px
+                            margin-left: 5px
+                            width: 309px
+                            border-radius: 5px
+
+                            width: 100%
+                            img
+                                max-width: 60%
+                            &.check
+                                border: 2px solid #0dcaf0
+                                filter: contrast(0.5)
+                    .posnal-informition
+                        padding-top: 1rem
+                        form
+                            input
+                                width: 50%
+                                margin-bottom: 1rem
+                            button
+                                color: $color-whait
+        .cart-sec-two
+            padding-left: 5px
+            .payment-summary
+                position: fixed
+                display: flex
+                flex-direction: column
+                .summary-card
+                    box-shadow: -3px 2px 20px 0px #6c757d57
+                    background-color: #fff
+                    padding: 20px 1rem
+                    border-radius: 5px
+                    .log-state
+                        background-color: #6c757d
+                        border-color: #6c757d
+                    .coupon
+                        padding-top: 1rem
+                        // padding-top: 5px
+                        display: flex
+                        flex-direction: column
+                        div
+                            color: #999
+                        div, form
+                            display: flex
+                            justify-content: space-between
+                    .calc
+                        & > div
+                            margin-bottom: 1rem
+                            display: flex
+                            justify-content: space-between
+                            span
+                                color: $color-orange
+                    .time-to-expiring
+                        padding: 5px 3px
+                        background-color: #dc354648
+                        span
+                            font-weight: 500
+                            color: #dc3546
+
+                        // border: 1px solid #dc3545
+
+.product-page
+    padding: 20px
+    position: absolute
+    height: 500px
+    overflow: auto
+    top: 16%
+    left: 10%
+    border-radius: 1rem
+    width: 80%
+    box-shadow: -1px 0px 20px 5px #dddddd8c
+    .product-section
+        .images
+            max-width: 60%
+            .main-img
+                img
+                    max-width: 100%
+            .small-imgs
+                display: flex
+                justify-content: center
+                .small-img
+                    background-color: #fff
+                    margin: 1rem
+                    width: 25%
+                    &.active
+                        border: 1px solid $color-orange
+                    img
+                        max-width: 100%
+        .product-ditails
+            // font-family: "Verdana, Geneva, Tahoma, sans-serif"
+            // font-family: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+            p:first-of-type
+                font-size: 14px
+                color: #555
+            .price
+                padding: 1rem 1rem 20px
+                .number
+                    font-size: 20px
+                    padding: 5px 1rem
+                    background-color: #c061141f
+                    color: #c06114
+                    position: relative
+                    margin-right: 1rem
+                    span
+                        font-size: 12px
+                        color: #c06114
+                        position: absolute
+                        top: 3px
+                        left: 5px
+
+            .product-discripe
+                color: #555
+            .discount
+                display: flex
+                flex-direction: column
+                font-size: 12px
+                letter-spacing: 1.2px
+                color: #666
+                span:first-of-type
+                    letter-spacing: 1px
+                    color: #198754
+                    font-weight: 500
+                    font-size: 18px
+            .product-quan
+                padding-top: 20px
+                .fav-quan
+                    display: flex
+                    margin: 0 5px
+                    button
+                        background: transparent
+                        border: none
+                    input
+                        width: 30px
+                        border: none
+            .seller
+                position: relative
+                overflow: hidden
+                margin-top: 13px
+                padding: 20px
+                border-radius: 25px
+                box-shadow: 0px 0px 16px 0px #0d6efd2e
+                .seller-inform
+                    display: flex
+                    // justify-content: space-between
+                    .seller-img
+                        width: 10%
+                        height: 5%
+                        border-radius: 1rem
+                        overflow: hidden
+                        img
+                            max-height: 100%
+                            max-width: 100%
+                    .seller-name
+                        padding: 0 1rem
+                        font-size: 18px
+
+                        font-weight: bold
+                        color: #666
+                    .seller-rate
+                        background-color: #19875442
+                        position: absolute
+                        right: 0
+                        padding: 1rem 8px
+                        border-radius: 20px
+                        span
+                            color: #198754
+                        span:first-of-type
+                            font-weight: bold
+                            font-size: 18px
+                            position: relative
+                            left: -1px
+                            top: -5px
+                        span:last-of-type
+                            position: relative
+                            top: 6px
+                .seller-disc
+                    padding: 5px
+                    font-size: 14px
+                    color: #777
+                    position: absolute
+                    bottom: 2px
+                    width: 75%
+                    left: 5rem
+                    h6
+                        color: #000
+                        margin-bottom: 0.1rem
+                        font-size: 0.9rem
+
+.edit-profile
+    padding: 40px 0
+
+    form
+        border-radius: 1rem
+        box-shadow: 0 0 15px 0px #00000069
+        padding: 20px
+        .profile-image
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            .image-container
+                height: 200px
+                width: 200px
+                border-radius: 50%
+                position: relative
+                overflow: hidden
+                border: 1px solid #ccc
+                img
+                    width: 100%
+                    height: 100%
+                    position: absolute
+                    border: none
+        .profile-informtion
+            padding-top: 20px
+            display: flex
+            flex-direction: column
+            input
+                width: 75%
+                margin-bottom: 1rem
+            div
+                position: relative
+                width: 75%
+                margin-bottom: 1rem
+                input
+                    width: 100%
+                span
+                    position: absolute
+                    right: 5px
+                    top: 45%
+                    cursor: pointer
+                    .clicked
+                        color: #0d6dfd
+.profile-page
+    padding: 30px
+    .col-12
+        padding: 15px
+        box-shadow: 0 0 13px 0px #3e8ed036
+        background-color: #eef4fb
+    button
+        color: #fff
+
+@media (min-width: 1px) and ( max-width:  425px)
+    .carousel
+        display: none
+    .features
+        .feat-cont
+            display: block
+            li
+                border-right: none !important
+                border-bottom: .6px solid $color-orange
+                width: 100%
+
+    .cart-sec-two
+        .payment-summary
+            position: relative !important

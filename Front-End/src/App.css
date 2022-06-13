@@ -1,0 +1,98 @@
+.d-inline-block {
+  display: inline-block;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4ed;
+  /* height: 5000px; */
+}
+
+/* Navbar */
+.head {
+  background-color: #424642;
+  color: #fff;
+  padding: 10px;
+}
+.head .container {
+  display: flex;
+  justify-content: center;
+}
+.head .container .none {
+  flex: 1;
+}
+.head form {
+  flex: 3;
+  padding: 0;
+}
+.head .logo {
+  flex: 2;
+}
+
+.head .car-icon {
+  flex: 1;
+  border: 0.8px solid #f3f4ed;
+  padding: 10px 20px;
+}
+.head .car-icon span:first-of-type {
+  margin-right: 10px;
+}
+
+.head .car-icon .car {
+  display: inline-block;
+  text-align: center;
+  background-color: #f3f4ed;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  color: #424642;
+}
+
+.under {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #c06014;
+  display: flex;
+  color: #f3f4ed;
+}
+
+.under .welcoming {
+  flex: 2;
+}
+.under .welcoming h1 {
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.under .welcoming p {
+  width: 60%;
+  margin-left: 20%;
+}
+.under .statistics {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  background-color: #f3f4ed;
+}
+
+.statistics .statis_sec {
+  padding: 20px;
+  flex: 1;
+  color: #c06014;
+  transition: all 0.15s ease-in-out;
+}
+
+.statistics .statis_sec:hover {
+  background-color: #c06014;
+  color: #f3f4ed;
+}
+.statistics .statis_sec h5 {
+  font-size: 8vh;
+  font-weight: 300;
+  font-family: "cursive";
+}

@@ -1,0 +1,304 @@
+{
+  "favs": [
+    {
+      "id": 1,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 2,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/2.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 3,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/3.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 4,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/4.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 5,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/5.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 6,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/6.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 7,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 8,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/2.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 9,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/3.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 10,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/4.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 11,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/5.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 12,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/6.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 13,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 14,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 15,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 16,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 17,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 18,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 19,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 20,
+      "name": "From Front",
+      "image1": "./images/items/2.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 21,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 22,
+      "name": "From Front",
+      "image1": "./images/items/2.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 23,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 24,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 25,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 26,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 27,
+      "name": "Sumsung s21 ultra",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 28,
+      "name": "Laaast",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 29,
+      "name": "Laaast",
+      "image1": "./images/items/1.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    },
+    {
+      "id": 30,
+      "name": "Last Of Front",
+      "image1": "./images/items/2.jpg",
+      "image2": "./images/items/1.jpg",
+      "image3": "./images/items/1.jpg",
+      "price": 400,
+      "state": 11,
+      "catigory": "Smart phone"
+    }
+  ]
+}
