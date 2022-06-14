@@ -22,6 +22,7 @@ const Home = () => {
       <Companies />
       <News />
       <Footer />
+    <a href="https://github.com/Arifkurdi/reactjs-E-commerce--webApplication" className="btn btn-primary w-100">Go To Repos On GITHUB </a>
     </>
   );
 };
